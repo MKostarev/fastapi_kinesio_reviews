@@ -44,4 +44,9 @@ async def root():
 async def health_check():
     return {"status": "OK"}
 
+@app.get("/test_branch")
+async def health_check():
+    return {"status": "OK"}
+
+
 
